@@ -4,17 +4,18 @@ module.exports = {
     theme: {
         extend: {
             spacing: {
-                WHea1:"240px",
-                390:"390",
-                360:"360px",
-                120:"120px",
+                wHea1:"390px",
+                hHea2:"47px",
+                hMus1:"260px",
+                wMus1:"165px",
+                hTitl:"135px",
                 180:"180px",
             },
             fontSize: {
-                "10/25.6": ["10px", "10.6px"],
-                "8/10.8": ["7px", "10.8px"],
-                "12/15.8": ["12px", "15.8px"],
-                "9/10.8": ["10px", "10.8px"],
+                "14/11.7": ["10px", "10.6px"],
+                "14/22.4": ["7px", "10.8px"],
+                "16/25.6": ["12px", "15.8px"],
+                "16/13.3": ["10px", "10.8px"],
             },
             fontFamily: {
                 Montserrat: ["Montserrat"],
