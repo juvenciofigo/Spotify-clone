@@ -23,274 +23,138 @@
         </style>
     </head>
 
-    <body class="h-screen">
-        <div
-            class="flex flex-row gap-1 p-2 bg-black text-white font-Montserrat overflow-y-hidden overflow-x-auto h-full">
-            <header
-                class="hidden h-full w-wHea1 bg md:flex flex-none flex-col gap-1 w-WHea1">
-                <nav class="bg-white bg-opacity-5 rounded">
-                    <ul class="flex flex-col gap-2 pl-4 py-2 text-12/15.8">
-                        <li>
-                            <a href="#">
-                                <i class="bx bx-home mr-2"></i>
-                                <span>Início</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                class="flex flex-row items-center gap-1"
-                                href="#">
-                                <i class="bx bx-search mr-2"></i>
-                                <span>Procurar</span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <section class="bg-white bg-opacity-5 rounded p-2 h-full">
-                    <div class="flex items-center px-2 justify-between">
-                        <button class="flex flex-row items-center gap-2">
-                            <i class="bx bx-library"></i>
-                            <div class="text-12/15.8">A tua Biblioteca</div>
+    <body
+        class="h-screen flex flex-row gap-1 p-2 bg-black text-white font-Montserrat overflow-y-hidden overflow-x-auto">
+        <header
+            class="hidden h-full w-wHea1 lg:flex flex-none flex-col gap-2 w-WHea1">
+            <nav class="bg-white bg-opacity-5 rounded">
+                <ul
+                    class="flex flex-col gap-6 pl-6 py-5 text-16/25.6 font-bold">
+                    <li>
+                        <a href="#" class="flex gap-5 items-center">
+                            <i class="bx bx-home bx-sm"></i>
+                            <span>Início</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="flex gap-5 items-center" href="#">
+                            <i class="bx bx-search bx-sm"></i>
+                            <span>Procurar</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <section class="bg-white bg-opacity-5 rounded p-2 h-full">
+                <div class="flex items-center my-2 px-2 justify-between">
+                    <button class="flex flex-row items-center gap-3">
+                        <i class="bx bx-library bx-sm"></i>
+                        <div class="text-16/13.3 font-bold">
+                            A tua Biblioteca
+                        </div>
+                    </button>
+                    <div class="flex gap-2">
+                        <button>
+                            <i class="bx bx-plus bx-sm"></i>
                         </button>
-                        <div class="flex gap-2">
-                            <button>
-                                <i class="bx bx-plus"></i>
-                            </button>
-                            <button class="sm:block hidden">
-                                <i class="bx bx-arrow-back bx-rotate-180"></i>
-                            </button>
+                    </div>
+                </div>
+                <div
+                    class="flex mt-6 flex-col gap-6 bg-black bg-transparent overflow-hidden hover:overflow-auto">
+                    <div
+                        class="flex flex-col gap-6 bg-white bg-opacity-10 rounded-md pl-4 py-6">
+                        <div class="flex flex-col gap-3 w-max">
+                            <h1 class="text-16/25.6 font-semibold">
+                                Cria a tua primeira playlist
+                            </h1>
+                            <p class="text-14/22.4 font-medium">
+                                É fácil, nós ajudamos
+                            </p>
                         </div>
+                        <button
+                            class="text-14/11.7 flex flex-row bg-white text-black w-max p-3 rounded-full font-semibold">
+                            Criar Playlist
+                        </button>
                     </div>
                     <div
-                        class="flex flex-col gap-4 bg-black bg-transparent overflow-hidden hover:overflow-auto">
-                        <div
-                            class="flex flex-col gap-3 bg-white bg-opacity-10 rounded-md pl-4 py-2">
-                            <div class="flex flex-col gap-2 w-max">
-                                <h1 class="text-9/10.8 font-semibold leading-4">
-                                    Cria a tua primeira playlist
-                                </h1>
-                                <p class="text-8/10.8 font-medium">
-                                    É fácil, nós ajudamos
-                                </p>
-                            </div>
-                            <button
-                                class="text-8/10.8 bg-white text-black p-1 w-16 box-content rounded-full py-1 font-semibold">
-                                Criar Playlist
-                            </button>
+                        class="flex flex-col gap-6 bg-white bg-opacity-10 rounded-md pl-4 py-6">
+                        <div class="flex flex-col gap-3">
+                            <h1 class="text-16/25.6 font-semibold">
+                                Vamos lá encontrar alguns podcasts para seguires
+                            </h1>
+                            <p class="text-14/22.4 font-medium">
+                                Vamos atualizar-te sobre os novos episódios
+                            </p>
+                        </div>
+                        <button
+                            class="text-14/11.7 flex flex-row bg-white text-black w-max p-3 rounded-full font-semibold">
+                            Criar Playlist
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <main
+            class="flex-1 md:w-full h-full flex flex-col bg-white bg-opacity-10">
+            <header
+                class="h-hHea2 justify-end flex items-center w-full bg-black">
+                <div class="mr-7 lg:hidden">
+                    <i class="bx bx-cog bx-sm"></i>
+                </div>
+                <div
+                    class="hidden sticky top-0 p-1 h-max lg:flex w-full bg-black justify-between items-center">
+                    <div class="flex gap-2">
+                        <div class="p-1 flex items-start bg-black rounded-full">
+                            <i class="fa-solid fa-chevron-up fa-rotate-270"></i>
                         </div>
                         <div
-                            class="flex flex-col gap-3 bg-white bg-opacity-10 rounded-md pl-4 py-2">
-                            <div class="flex flex-col gap-2">
-                                <h1 class="text-9/10.8 font-semibold leading-4">
-                                    Vamos lá encontrar alguns podcasts para
-                                    segueires
-                                </h1>
-                                <p class="text-8/10.8 font-medium">
-                                    Vamos atualizar-te sobre os novos episódios
-                                </p>
-                            </div>
-                            <button
-                                class="text-8/10.8 bg-white text-black p-1 w-16 box-content rounded-full py-1 font-semibold">
-                                Criar Playlist
-                            </button>
+                            class="hidden sm:flex p-1 items-start bg-black rounded-full">
+                            <i class="fa-solid fa-chevron-up fa-rotate-90"></i>
                         </div>
                     </div>
-                </section>
+                    <div class="flex gap-2 content-center">
+                        <button
+                            class="hidden sm:flex flex-row text-8/10.8 px-2 bg-white items-center gap-1 text-black rounded-full py-1 font-semibold">
+                            <span>Explorar o Premium</span>
+                        </button>
+                        <button
+                            class="flex flex-row flex-nowrap text-8/10.8 px-2 bg-black items-center gap-1 text-white rounded-full py-1 font-semibold">
+                            <i class="bx bx-down-arrow-circle bx-xs"></i>
+                            <span>Instalar app</span>
+                        </button>
+                        <button
+                            class="flex flex-row text-base-8/10.8 p-1 bg-black items-center text-white rounded-full py-1 font-semibold">
+                            <i class="h-full w-full bx bx-user bx-xs"></i>
+                        </button>
+                    </div>
+                </div>
             </header>
-            <main
-                class="flex-1 md:w-full h-full flex flex-col bg-white bg-opacity-10">
-                <header class="h-hHea2 justify-end flex w-full bg-black">
-                    <div class="md:hidden"><i class="bx bx-cog"></i></div>
-                    <div
-                        class="hidden sticky top-0 p-1 h-max md:flex w-full bg-black justify-between items-center">
-                        <div class="flex gap-2">
-                            <div
-                                class="p-1 flex items-start bg-black rounded-full">
-                                <i
-                                    class="fa-solid fa-chevron-up fa-rotate-270"></i>
-                            </div>
-                            <div
-                                class="hidden sm:flex p-1 items-start bg-black rounded-full">
-                                <i
-                                    class="fa-solid fa-chevron-up fa-rotate-90"></i>
-                            </div>
+            <section
+                class="overflow-y-auto overflow-x-hidden w-full h-full flex flex-wrap text-9/10.8">
+                <div class="w-full m-2">
+                    <div class="w-full flex flex-col gap-3">
+                        <div class="flex flex-row my-2">
+                            <h1>Reproduzido recentemente</h1>
+                            <button>Mostrar tudo</button>
                         </div>
-                        <div class="flex gap-2 content-center">
-                            <button
-                                class="hidden sm:flex flex-row text-8/10.8 px-2 bg-white items-center gap-1 text-black rounded-full py-1 font-semibold">
-                                <span>Explorar o Premium</span>
-                            </button>
-                            <button
-                                class="flex flex-row flex-nowrap text-8/10.8 px-2 bg-black items-center gap-1 text-white rounded-full py-1 font-semibold">
-                                <i class="bx bx-down-arrow-circle bx-xs"></i>
-                                <span>Instalar app</span>
-                            </button>
-                            <button
-                                class="flex flex-row text-base-8/10.8 p-1 bg-black items-center text-white rounded-full py-1 font-semibold">
-                                <i class="h-full w-full bx bx-user bx-xs"></i>
-                            </button>
-                        </div>
-                    </div>
-                </header>
-                <section
-                    class="overflow-y-auto overflow-x-hidden w-full h-full flex flex-wrap text-9/10.8">
-                    <div class="w-full m-2">
-                        <div class="w-full">
-                            <div class="flex flex-row my-2">
-                                <h1>Reproduzido recentemente</h1>
-                                <button>Mostrar tudo</button>
-                            </div>
+                        <div class="flex flex-col overflow-auto gap-2">
                             <div
-                                class="flex flex-row flex-nowrap overflow-auto gap-2 toresize">
+                                class="gap-2 flex flex-col w-wMus1 h-hMus1 bg-neutral-600 bg-opacity-10 transition-all duration-300 hover:bg-opacity-25 p-3 rounded-md">
+                                <div class="h-full bg-black"></div>
                                 <div
-                                    class="gap-2 flex flex-col w-wMus1 h-hMus1 bg-black opacity-50 p-3">
-                                    <div class="h-full bg-black">Foto</div>
+                                    class="text-8/10.8flex-1 p-1 flex flex-col gap-2">
+                                    <h1 class="text-10/25.6">Ka Valungo</h1>
                                     <div
-                                        class="text-8/10.8flex-1 p-1 flex flex-col gap-2">
-                                        <h1 class="text-10/25.6">Ka Valungo</h1>
-                                        <div
-                                            class="text-8/10.8 flex flex-col gap-1">
-                                            <p>Unapologetically</p>
-                                            <p>Vibes!za</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    class="gap-2 flex flex-col w-wMus1 h-hMus1 bg-black opacity-50 p-3">
-                                    <div class="h-full bg-black">Foto</div>
-                                    <div
-                                        class="text-8/10.8flex-1 p-1 flex flex-col gap-2">
-                                        <h1 class="text-10/25.6">Ka Valungo</h1>
-                                        <div
-                                            class="text-8/10.8 flex flex-col gap-1">
-                                            <p>Unapologetically</p>
-                                            <p>Vibes!za</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    class="gap-2 flex flex-col w-wMus1 h-hMus1 bg-black opacity-50 p-3">
-                                    <div class="h-full bg-black">Foto</div>
-                                    <div
-                                        class="text-8/10.8flex-1 p-1 flex flex-col gap-2">
-                                        <h1 class="text-10/25.6">Ka Valungo</h1>
-                                        <div
-                                            class="text-8/10.8 flex flex-col gap-1">
-                                            <p>Unapologetically</p>
-                                            <p>Vibes!za</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    class="gap-2 flex flex-col w-wMus1 h-hMus1 bg-black opacity-50 p-3">
-                                    <div class="h-full bg-black">Foto</div>
-                                    <div
-                                        class="text-8/10.8flex-1 p-1 flex flex-col gap-2">
-                                        <h1 class="text-10/25.6">Ka Valungo</h1>
-                                        <div
-                                            class="text-8/10.8 flex flex-col gap-1">
-                                            <p>Unapologetically</p>
-                                            <p>Vibes!za</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    class="gap-2 flex flex-col w-wMus1 h-hMus1 bg-black opacity-50 p-3">
-                                    <div class="h-full bg-black">Foto</div>
-                                    <div
-                                        class="text-8/10.8flex-1 p-1 flex flex-col gap-2">
-                                        <h1 class="text-10/25.6">Ka Valungo</h1>
-                                        <div
-                                            class="text-8/10.8 flex flex-col gap-1">
-                                            <p>Unapologetically</p>
-                                            <p>Vibes!za</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    class="gap-2 flex flex-col w-wMus1 h-hMus1 bg-black opacity-50 p-3">
-                                    <div class="h-full bg-black">Foto</div>
-                                    <div
-                                        class="text-8/10.8flex-1 p-1 flex flex-col gap-2">
-                                        <h1 class="text-10/25.6">Ka Valungo</h1>
-                                        <div
-                                            class="text-8/10.8 flex flex-col gap-1">
-                                            <p>Unapologetically</p>
-                                            <p>Vibes!za</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    class="gap-2 flex flex-col w-wMus1 h-hMus1 bg-black opacity-50 p-3">
-                                    <div class="h-full bg-black">Foto</div>
-                                    <div
-                                        class="text-8/10.8flex-1 p-1 flex flex-col gap-2">
-                                        <h1 class="text-10/25.6">Ka Valungo</h1>
-                                        <div
-                                            class="text-8/10.8 flex flex-col gap-1">
-                                            <p>Unapologetically</p>
-                                            <p>Vibes!za</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    class="gap-2 flex flex-col w-wMus1 h-hMus1 bg-black opacity-50 p-3">
-                                    <div class="h-full bg-black">Foto</div>
-                                    <div
-                                        class="text-8/10.8flex-1 p-1 flex flex-col gap-2">
-                                        <h1 class="text-10/25.6">Ka Valungo</h1>
-                                        <div
-                                            class="text-8/10.8 flex flex-col gap-1">
-                                            <p>Unapologetically</p>
-                                            <p>Vibes!za</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    class="gap-2 flex flex-col w-wMus1 h-hMus1 bg-black opacity-50 p-3">
-                                    <div class="h-full bg-black">Foto</div>
-                                    <div
-                                        class="text-8/10.8flex-1 p-1 flex flex-col gap-2">
-                                        <h1 class="text-10/25.6">Ka Valungo</h1>
-                                        <div
-                                            class="text-8/10.8 flex flex-col gap-1">
-                                            <p>Unapologetically</p>
-                                            <p>Vibes!za</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    class="gap-2 flex flex-col w-wMus1 h-hMus1 bg-black opacity-50 p-3">
-                                    <div class="h-full bg-black">Foto</div>
-                                    <div
-                                        class="text-8/10.8flex-1 p-1 flex flex-col gap-2">
-                                        <h1 class="text-10/25.6">Ka Valungo</h1>
-                                        <div
-                                            class="text-8/10.8 flex flex-col gap-1">
-                                            <p>Unapologetically</p>
-                                            <p>Vibes!za</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    class="gap-2 flex flex-col w-wMus1 h-hMus1 bg-black opacity-50 p-3">
-                                    <div class="h-full bg-black">Foto</div>
-                                    <div
-                                        class="text-8/10.8flex-1 p-1 flex flex-col gap-2">
-                                        <h1 class="text-10/25.6">Ka Valungo</h1>
-                                        <div
-                                            class="text-8/10.8 flex flex-col gap-1">
-                                            <p>Unapologetically</p>
-                                            <p>Vibes!za</p>
-                                        </div>
+                                        class="text-8/10.8 flex flex-col gap-1">
+                                        <p>Unapologetically</p>
+                                        <p>Vibes!za</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </section>
-            </main>
-        </div>
+                </div>
+            </section>
+        </main>
         <script>
             const tamanho = document.querySelector('.toresize')
             console.log(tamanho.childElementCount)
