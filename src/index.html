@@ -7,8 +7,7 @@
         <link
             rel="shortcut icon"
             href="../dist/imgs/favicon.svg"
-            type="image/x-icon"
-        />
+            type="image/x-icon" />
 
         <!-- <link
             rel="stylesheet"
@@ -16,26 +15,24 @@
         /> -->
         <link
             href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
-            rel="stylesheet"
-        />
+            rel="stylesheet" />
         <link
             rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-        />
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
         <script
             src="https://kit.fontawesome.com/6c6cd58024.js"
-            crossorigin="anonymous"
-        ></script>
+            crossorigin="anonymous"></script>
         <link rel="stylesheet" href="../dist/css/output.css" />
         <style>
             @import "../../node_modules/boxicons/css/boxicons.min.css";
         </style>
     </head>
+
     <body class="h-screen">
         <div
-            class="flex flex-row gap-1 p-2 bg-black text-white font-Montserrat overflow-y-hidden overflow-x-auto h-full"
-        >
-            <header class="h-full bg flex flex-none flex-col gap-1 w-240">
+            class="flex flex-row gap-1 p-2 bg-black text-white font-Montserrat overflow-y-hidden overflow-x-auto h-full">
+            <header
+                class="hidden h-full bg lg:flex flex-none flex-col gap-1 w-WHea1">
                 <nav class="bg-white bg-opacity-5 rounded">
                     <ul class="flex flex-col gap-2 pl-4 py-2 text-12/15.8">
                         <li>
@@ -47,8 +44,7 @@
                         <li>
                             <a
                                 class="flex flex-row items-center gap-1"
-                                href="#"
-                            >
+                                href="#">
                                 <i class="bx bx-search mr-2"></i>
                                 <span>Procurar</span>
                             </a>
@@ -71,11 +67,9 @@
                         </div>
                     </div>
                     <div
-                        class="flex flex-col gap-4 bg-black bg-transparent overflow-hidden hover:overflow-auto"
-                    >
+                        class="flex flex-col gap-4 bg-black bg-transparent overflow-hidden hover:overflow-auto">
                         <div
-                            class="flex flex-col gap-3 bg-white bg-opacity-10 rounded-md pl-4 py-2"
-                        >
+                            class="flex flex-col gap-3 bg-white bg-opacity-10 rounded-md pl-4 py-2">
                             <div class="flex flex-col gap-2 w-max">
                                 <h1 class="text-9/10.8 font-semibold leading-4">
                                     Cria a tua primeira playlist
@@ -85,14 +79,12 @@
                                 </p>
                             </div>
                             <button
-                                class="text-8/10.8 bg-white text-black p-1 w-16 box-content rounded-full py-1 font-semibold"
-                            >
+                                class="text-8/10.8 bg-white text-black p-1 w-16 box-content rounded-full py-1 font-semibold">
                                 Criar Playlist
                             </button>
                         </div>
                         <div
-                            class="flex flex-col gap-3 bg-white bg-opacity-10 rounded-md pl-4 py-2"
-                        >
+                            class="flex flex-col gap-3 bg-white bg-opacity-10 rounded-md pl-4 py-2">
                             <div class="flex flex-col gap-2">
                                 <h1 class="text-9/10.8 font-semibold leading-4">
                                     Vamos lá encontrar alguns podcasts para
@@ -103,8 +95,7 @@
                                 </p>
                             </div>
                             <button
-                                class="text-8/10.8 bg-white text-black p-1 w-16 box-content rounded-full py-1 font-semibold"
-                            >
+                                class="text-8/10.8 bg-white text-black p-1 w-16 box-content rounded-full py-1 font-semibold">
                                 Criar Playlist
                             </button>
                         </div>
@@ -112,43 +103,42 @@
                 </section>
             </header>
             <main
-                class="flex-1 min-w-360 md:w-full h-full flex flex-col bg-white bg-opacity-10"
-            >
-                <header
-                    class="sticky top-0 p-1 h-max flex w-full bg-black justify-between items-center"
-                >
-                    <div class="flex gap-2">
-                        <div class="p-1 flex items-start bg-black rounded-full">
-                            <i class="fa-solid fa-chevron-up fa-rotate-270"></i>
+                class="flex-1 min-w-360 md:w-full h-full flex flex-col bg-white bg-opacity-10">
+                <header class="justify-end flex w-full bg-black">
+                    <div class=" md:hidden"><i class="bx bx-cog"></i></div>
+                    <div
+                        class="hidden sticky top-0 p-1 h-max md:flex w-full bg-black justify-between items-center">
+                        <div class="flex gap-2">
+                            <div
+                                class="p-1 flex items-start bg-black rounded-full">
+                                <i
+                                    class="fa-solid fa-chevron-up fa-rotate-270"></i>
+                            </div>
+                            <div
+                                class="hidden sm:flex p-1 items-start bg-black rounded-full">
+                                <i
+                                    class="fa-solid fa-chevron-up fa-rotate-90"></i>
+                            </div>
                         </div>
-                        <div
-                            class="hidden sm:flex p-1 items-start bg-black rounded-full"
-                        >
-                            <i class="fa-solid fa-chevron-up fa-rotate-90"></i>
+                        <div class="flex gap-2 content-center">
+                            <button
+                                class="hidden sm:flex flex-row text-8/10.8 px-2 bg-white items-center gap-1 text-black rounded-full py-1 font-semibold">
+                                <span>Explorar o Premium</span>
+                            </button>
+                            <button
+                                class="flex flex-row flex-nowrap text-8/10.8 px-2 bg-black items-center gap-1 text-white rounded-full py-1 font-semibold">
+                                <i class="bx bx-down-arrow-circle bx-xs"></i>
+                                <span>Instalar app</span>
+                            </button>
+                            <button
+                                class="flex flex-row text-base-8/10.8 p-1 bg-black items-center text-white rounded-full py-1 font-semibold">
+                                <i class="h-full w-full bx bx-user bx-xs"></i>
+                            </button>
                         </div>
-                    </div>
-                    <div class="flex gap-2 content-center">
-                        <button
-                            class="hidden sm:flex flex-row text-8/10.8 px-2 bg-white items-center gap-1 text-black rounded-full py-1 font-semibold"
-                        >
-                            <span>Explorar o Premium</span>
-                        </button>
-                        <button
-                            class="flex flex-row flex-nowrap text-8/10.8 px-2 bg-black items-center gap-1 text-white rounded-full py-1 font-semibold"
-                        >
-                            <i class="bx bx-down-arrow-circle bx-xs"></i>
-                            <span>Instalar app</span>
-                        </button>
-                        <button
-                            class="flex flex-row text-base-8/10.8 p-1 bg-black items-center text-white rounded-full py-1 font-semibold"
-                        >
-                            <i class="h-full w-full bx bx-user bx-xs"></i>
-                        </button>
                     </div>
                 </header>
                 <section
-                    class="overflow-y-auto overflow-x-hidden w-full h-full flex flex-wrap text-9/10.8"
-                >
+                    class="overflow-y-auto overflow-x-hidden w-full h-full flex flex-wrap text-9/10.8">
                     <div class="w-full m-2">
                         <div class="w-full">
                             <div class="flex flex-row my-2">
@@ -156,179 +146,145 @@
                                 <button>Mostrar tudo</button>
                             </div>
                             <div
-                                class="flex flex-row flex-nowrap overflow-auto gap-2 toresize"
-                            >
+                                class="flex flex-row flex-nowrap overflow-auto gap-2 toresize">
                                 <div
-                                    class="gap-2 flex flex-col w-120 h-180 bg-black opacity-50 p-3"
-                                >
+                                    class="gap-2 flex flex-col w-120 h-180 bg-black opacity-50 p-3">
                                     <div class="h-full bg-black">Foto</div>
                                     <div
-                                        class="text-8/10.8flex-1 p-1 flex flex-col gap-2"
-                                    >
+                                        class="text-8/10.8flex-1 p-1 flex flex-col gap-2">
                                         <h1 class="text-10/25.6">Ka Valungo</h1>
                                         <div
-                                            class="text-8/10.8 flex flex-col gap-1"
-                                        >
+                                            class="text-8/10.8 flex flex-col gap-1">
                                             <p>Unapologetically</p>
                                             <p>Vibes!za</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div
-                                    class="gap-2 flex flex-col w-120 h-180 bg-black opacity-50 p-3"
-                                >
+                                    class="gap-2 flex flex-col w-120 h-180 bg-black opacity-50 p-3">
                                     <div class="h-full bg-black">Foto</div>
                                     <div
-                                        class="text-8/10.8flex-1 p-1 flex flex-col gap-2"
-                                    >
+                                        class="text-8/10.8flex-1 p-1 flex flex-col gap-2">
                                         <h1 class="text-10/25.6">Ka Valungo</h1>
                                         <div
-                                            class="text-8/10.8 flex flex-col gap-1"
-                                        >
+                                            class="text-8/10.8 flex flex-col gap-1">
                                             <p>Unapologetically</p>
                                             <p>Vibes!za</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div
-                                    class="gap-2 flex flex-col w-120 h-180 bg-black opacity-50 p-3"
-                                >
+                                    class="gap-2 flex flex-col w-120 h-180 bg-black opacity-50 p-3">
                                     <div class="h-full bg-black">Foto</div>
                                     <div
-                                        class="text-8/10.8flex-1 p-1 flex flex-col gap-2"
-                                    >
+                                        class="text-8/10.8flex-1 p-1 flex flex-col gap-2">
                                         <h1 class="text-10/25.6">Ka Valungo</h1>
                                         <div
-                                            class="text-8/10.8 flex flex-col gap-1"
-                                        >
+                                            class="text-8/10.8 flex flex-col gap-1">
                                             <p>Unapologetically</p>
                                             <p>Vibes!za</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div
-                                    class="gap-2 flex flex-col w-120 h-180 bg-black opacity-50 p-3"
-                                >
+                                    class="gap-2 flex flex-col w-120 h-180 bg-black opacity-50 p-3">
                                     <div class="h-full bg-black">Foto</div>
                                     <div
-                                        class="text-8/10.8flex-1 p-1 flex flex-col gap-2"
-                                    >
+                                        class="text-8/10.8flex-1 p-1 flex flex-col gap-2">
                                         <h1 class="text-10/25.6">Ka Valungo</h1>
                                         <div
-                                            class="text-8/10.8 flex flex-col gap-1"
-                                        >
+                                            class="text-8/10.8 flex flex-col gap-1">
                                             <p>Unapologetically</p>
                                             <p>Vibes!za</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div
-                                    class="gap-2 flex flex-col w-120 h-180 bg-black opacity-50 p-3"
-                                >
+                                    class="gap-2 flex flex-col w-120 h-180 bg-black opacity-50 p-3">
                                     <div class="h-full bg-black">Foto</div>
                                     <div
-                                        class="text-8/10.8flex-1 p-1 flex flex-col gap-2"
-                                    >
+                                        class="text-8/10.8flex-1 p-1 flex flex-col gap-2">
                                         <h1 class="text-10/25.6">Ka Valungo</h1>
                                         <div
-                                            class="text-8/10.8 flex flex-col gap-1"
-                                        >
+                                            class="text-8/10.8 flex flex-col gap-1">
                                             <p>Unapologetically</p>
                                             <p>Vibes!za</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div
-                                    class="gap-2 flex flex-col w-120 h-180 bg-black opacity-50 p-3"
-                                >
+                                    class="gap-2 flex flex-col w-120 h-180 bg-black opacity-50 p-3">
                                     <div class="h-full bg-black">Foto</div>
                                     <div
-                                        class="text-8/10.8flex-1 p-1 flex flex-col gap-2"
-                                    >
+                                        class="text-8/10.8flex-1 p-1 flex flex-col gap-2">
                                         <h1 class="text-10/25.6">Ka Valungo</h1>
                                         <div
-                                            class="text-8/10.8 flex flex-col gap-1"
-                                        >
+                                            class="text-8/10.8 flex flex-col gap-1">
                                             <p>Unapologetically</p>
                                             <p>Vibes!za</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div
-                                    class="gap-2 flex flex-col w-120 h-180 bg-black opacity-50 p-3"
-                                >
+                                    class="gap-2 flex flex-col w-120 h-180 bg-black opacity-50 p-3">
                                     <div class="h-full bg-black">Foto</div>
                                     <div
-                                        class="text-8/10.8flex-1 p-1 flex flex-col gap-2"
-                                    >
+                                        class="text-8/10.8flex-1 p-1 flex flex-col gap-2">
                                         <h1 class="text-10/25.6">Ka Valungo</h1>
                                         <div
-                                            class="text-8/10.8 flex flex-col gap-1"
-                                        >
+                                            class="text-8/10.8 flex flex-col gap-1">
                                             <p>Unapologetically</p>
                                             <p>Vibes!za</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div
-                                    class="gap-2 flex flex-col w-120 h-180 bg-black opacity-50 p-3"
-                                >
+                                    class="gap-2 flex flex-col w-120 h-180 bg-black opacity-50 p-3">
                                     <div class="h-full bg-black">Foto</div>
                                     <div
-                                        class="text-8/10.8flex-1 p-1 flex flex-col gap-2"
-                                    >
+                                        class="text-8/10.8flex-1 p-1 flex flex-col gap-2">
                                         <h1 class="text-10/25.6">Ka Valungo</h1>
                                         <div
-                                            class="text-8/10.8 flex flex-col gap-1"
-                                        >
+                                            class="text-8/10.8 flex flex-col gap-1">
                                             <p>Unapologetically</p>
                                             <p>Vibes!za</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div
-                                    class="gap-2 flex flex-col w-120 h-180 bg-black opacity-50 p-3"
-                                >
+                                    class="gap-2 flex flex-col w-120 h-180 bg-black opacity-50 p-3">
                                     <div class="h-full bg-black">Foto</div>
                                     <div
-                                        class="text-8/10.8flex-1 p-1 flex flex-col gap-2"
-                                    >
+                                        class="text-8/10.8flex-1 p-1 flex flex-col gap-2">
                                         <h1 class="text-10/25.6">Ka Valungo</h1>
                                         <div
-                                            class="text-8/10.8 flex flex-col gap-1"
-                                        >
+                                            class="text-8/10.8 flex flex-col gap-1">
                                             <p>Unapologetically</p>
                                             <p>Vibes!za</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div
-                                    class="gap-2 flex flex-col w-120 h-180 bg-black opacity-50 p-3"
-                                >
+                                    class="gap-2 flex flex-col w-120 h-180 bg-black opacity-50 p-3">
                                     <div class="h-full bg-black">Foto</div>
                                     <div
-                                        class="text-8/10.8flex-1 p-1 flex flex-col gap-2"
-                                    >
+                                        class="text-8/10.8flex-1 p-1 flex flex-col gap-2">
                                         <h1 class="text-10/25.6">Ka Valungo</h1>
                                         <div
-                                            class="text-8/10.8 flex flex-col gap-1"
-                                        >
+                                            class="text-8/10.8 flex flex-col gap-1">
                                             <p>Unapologetically</p>
                                             <p>Vibes!za</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div
-                                    class="gap-2 flex flex-col w-120 h-180 bg-black opacity-50 p-3"
-                                >
+                                    class="gap-2 flex flex-col w-120 h-180 bg-black opacity-50 p-3">
                                     <div class="h-full bg-black">Foto</div>
                                     <div
-                                        class="text-8/10.8flex-1 p-1 flex flex-col gap-2"
-                                    >
+                                        class="text-8/10.8flex-1 p-1 flex flex-col gap-2">
                                         <h1 class="text-10/25.6">Ka Valungo</h1>
                                         <div
-                                            class="text-8/10.8 flex flex-col gap-1"
-                                        >
+                                            class="text-8/10.8 flex flex-col gap-1">
                                             <p>Unapologetically</p>
                                             <p>Vibes!za</p>
                                         </div>
@@ -346,8 +302,8 @@
             console.log(tamanho.scrollIntoView().)
 
 
-            window.addEventListener("resize", function(x){
-                if(tamanho.scrollWidth < 487){
+            window.addEventListener("resize", function (x) {
+                if (tamanho.scrollWidth < 487) {
                     <!-- console.log("ola") -->
                 }
                 console.log(tamanho.clientWidth)
