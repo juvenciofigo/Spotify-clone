@@ -1,3 +1,3 @@
 # Spotify-clone
 
-<a href="pages/MyStore.html"> <i class="bx bxs-shopping-bag-alt"></i>Spotify-clone</a>
+<a href="src\index.html"></i>Spotify-clone</a>
