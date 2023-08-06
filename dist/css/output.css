@@ -603,6 +603,10 @@ video {
   height: 181px;
 }
 
+.h-66{
+  height: 66px;
+}
+
 .h-full{
   height: 100%;
 }
@@ -622,10 +626,6 @@ video {
 
 .h-screen{
   height: 100vh;
-}
-
-.h-66{
-  height: 66px;
 }
 
 .w-12{
@@ -663,14 +663,6 @@ video {
 
 .flex-none{
   flex: none;
-}
-
-.resize-x{
-  resize: horizontal;
-}
-
-.resize{
-  resize: both;
 }
 
 .flex-row{
@@ -781,23 +773,6 @@ video {
   border-top-width: 2px;
 }
 
-.border-l{
-  border-left-width: 1px;
-}
-
-.border-l-8{
-  border-left-width: 8px;
-}
-
-.border-r-8{
-  border-right-width: 8px;
-}
-
-.border-e-red-300{
-  --tw-border-opacity: 1;
-  border-inline-end-color: rgb(252 165 165 / var(--tw-border-opacity));
-}
-
 .bg-black{
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -822,84 +797,12 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[\]{
-  background-color: ;
-}
-
-.bg-\[url\]{
-  background-color: url;
-}
-
 .bg-opacity-10{
   --tw-bg-opacity: 0.1;
 }
 
 .bg-opacity-5{
   --tw-bg-opacity: 0.05;
-}
-
-.bg-\[url\(\)\]{
-  background-image: url();
-}
-
-.bg-\[url\(\"\"\)\]{
-  background-image: url("");
-}
-
-.bg-\[url\(\'\'\)\]{
-  background-image: url('');
-}
-
-.bg-\[url\(\'\\dist\\imgs\\misic\\ab67706f000000022e2fee5a9f85b856105015a2\.jpeg\'\)\]{
-  background-image: url('\dist\imgs\misic\ab67706f000000022e2fee5a9f85b856105015a2.jpeg');
-}
-
-.bg-\[url\(\'\.\.\/\\dist\\imgs\\misic\\ab67706f000000022e2fee5a9f85b856105015a2\.jpeg\'\)\]{
-  background-image: url('../\dist\imgs\misic\ab67706f000000022e2fee5a9f85b856105015a2.jpeg');
-}
-
-.bg-\[url\(\'\.\.\/\\dist\\imgs\\misic\/ab67706f000000022e2fee5a9f85b856105015a2\.jpeg\'\)\]{
-  background-image: url('../\dist\imgs\misic/ab67706f000000022e2fee5a9f85b856105015a2.jpeg');
-}
-
-.bg-\[url\(\'\.\.\/\\dist\\imgs\/misic\/ab67706f000000022e2fee5a9f85b856105015a2\.jpeg\'\)\]{
-  background-image: url('../\dist\imgs/misic/ab67706f000000022e2fee5a9f85b856105015a2.jpeg');
-}
-
-.bg-\[url\(\'\.\.\/\\dist\\mgs\/misic\/ab67706f000000022e2fee5a9f85b856105015a2\.jpeg\'\)\]{
-  background-image: url('../\dist\mgs/misic/ab67706f000000022e2fee5a9f85b856105015a2.jpeg');
-}
-
-.bg-\[url\(\'\.\.\/\\dist\\imgs\\misicab67706f000000022e2fee5a9f85b856105015a2\.jpeg\'\)\]{
-  background-image: url('../\dist\imgs\misicab67706f000000022e2fee5a9f85b856105015a2.jpeg');
-}
-
-.bg-\[url\(\'\.\.\/\'\)\]{
-  background-image: url('../');
-}
-
-.bg-\[url\(\'\.\.\/dist\'\)\]{
-  background-image: url('../dist');
-}
-
-.bg-\[url\(\'\.\.\/dist\/\'\)\]{
-  background-image: url('../dist/');
-}
-
-.bg-\[url\(\'src\\ab67706f000000022e2fee5a9f85b856105015a2\.jpeg\'\)\]{
-  background-image: url('src\ab67706f000000022e2fee5a9f85b856105015a2.jpeg');
-}
-
-.bg-\[url\(\'\\ab67706f000000022e2fee5a9f85b856105015a2\.jpeg\'\)\]{
-  background-image: url('\ab67706f000000022e2fee5a9f85b856105015a2.jpeg');
-}
-
-.bg-\[url\(\'ab67706f000000022e2fee5a9f85b856105015a2\.jpeg\'\)\]{
-  background-image: url('ab67706f000000022e2fee5a9f85b856105015a2.jpeg');
-}
-
-.bg-\[url\(\'\/ab67706f000000022e2fee5a9f85b856105015a2\.jpeg\'\)\]{
-  background-image: url('/ab67706f000000022e2fee5a9f85b856105015a2.jpeg');
 }
 
 .p-1{
