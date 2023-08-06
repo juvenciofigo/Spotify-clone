@@ -9,7 +9,8 @@ module.exports = {
                 hMus1: "286px",
                 wMus1: "195px",
                 hTitl: "135px",
-                180: "180px",
+                181: "181px",
+                66:"66px"
             },
             fontSize: {
                 "14/11.7": ["14px", "11.7px"],
