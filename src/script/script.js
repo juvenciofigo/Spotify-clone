@@ -1,3 +1,5 @@
+import 'boxicons'
+
 const divmusi = document.querySelectorAll(".divmusic");
 const crol = document.querySelector("section");
 
