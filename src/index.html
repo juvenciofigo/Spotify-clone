@@ -16,6 +16,7 @@
         <style>
             @import "../../node_modules/boxicons/css/boxicons.min.css";
         </style>
+        <script defer src="./script/script.js"></script>
     </head>
 
     <body class="relative h-screen w-screen flex flex-row gap-1 p-2 bg-black text-white font-Montserrat overflow-hidden">
@@ -93,12 +94,12 @@
                 </button>
                 <div class="hidden sticky top-0 p-1 h-max lg:flex w-full bg-black justify-between items-center">
                     <div class="flex gap-2">
-                        <div class="p-1 flex items-start bg-black rounded-full">
-                            <i class="fa-solid fa-chevron-up fa-rotate-270"></i>
-                        </div>
-                        <div class="hidden sm:flex p-1 items-start bg-black rounded-full">
-                            <i class="fa-solid fa-chevron-up fa-rotate-90"></i>
-                        </div>
+                        <button class="p-1 flex items-start bg-black rounded-full">
+                            <i class="bx bx-chevron-left bx-lg"></i>
+                        </button>
+                        <button class="hidden sm:flex p-1 items-start bg-black rounded-full">
+                            <i class="bx bx-chevron-right bx-lg" style="color: #ffffff"></i>
+                        </button>
                     </div>
                     <div class="flex gap-2 content-center">
                         <button class="hidden sm:flex flex-row text-8/10.8 px-2 bg-white items-center gap-1 text-black rounded-full py-1 font-semibold">
@@ -109,7 +110,7 @@
                             <span>Instalar app</span>
                         </button>
                         <button class="flex flex-row text-base-8/10.8 p-1 bg-black items-center text-white rounded-full py-1 font-semibold">
-                            <i class="h-full w-full bx bx-user bx-xs"></i>
+                            <i class="bx bx-user bx-sm"></i>
                         </button>
                     </div>
                 </div>
@@ -122,63 +123,131 @@
                             <button class="hidden md:block text-14/22.4 font-semibold">Mostrar tudo</button>
                         </div>
                         <div class="flex w-full justify-around flex-row overflow-auto gap-2">
-                            <div class="relative gap-2 flex flex-col w-wMus1 h-hMus1 bg-neutral-600 bg-opacity-10 transition-all duration-300 hover:bg-opacity-25 p-3 rounded-md divmusic">
+                            <div class="divmusic">
                                 <div class="hidden absolute bottom-28 right-7">
-                                    <button class="flex justify-center items-center w-12 h-12 rounded-full playMusic bg-playcolor">
+                                    <button type="button" aria-label="click to play" class="playMusic">
                                         <i class="bx bx-play bx-md" style="color: black"></i>
                                     </button>
                                 </div>
-                                <div class="h-181 w-full bg-black photo">Foto</div>
+                                <div class="h-181 w-full bg-black photo"><img class="w-full h-full" src="../dist/imgs/misic/ab67616d00001e0259e1dccd3e64d1a67101e04f.jpeg" alt="Foto da musica"></div>
                                 <div class="h-66 overflow-hidden flex-1 p-1 flex flex-col gap-2">
-                                    <h1 class="text-16/25.6 font-semibold">Ka Valungo</h1>
+                                    <a href="#" class="text-16/25.6 font-semibold truncate" title="lorem">Ka Valungo</a>
                                     <div class="text-14/11.7 flex flex-col gap-2">
-                                        <p>Unapologetically</p>
-                                        <p>Vibes!za</p>
+                                        <p class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elitddsdsdsd.</p>
+                                        <p class="truncate">Vibes!za</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="relative gap-2 flex flex-col w-wMus1 h-hMus1 bg-neutral-600 bg-opacity-10 transition-all duration-300 hover:bg-opacity-25 p-3 rounded-md divmusic">
+                            <div class="divmusic">
                                 <div class="hidden absolute bottom-28 right-7">
-                                    <button class="flex justify-center items-center w-12 h-12 rounded-full playMusic bg-playcolor">
+                                    <button type="button" aria-label="click to play" class="playMusic">
                                         <i class="bx bx-play bx-md" style="color: black"></i>
                                     </button>
                                 </div>
-                                <div class="h-181 w-full bg-black photo">Foto</div>
+                                <div class="h-181 w-full bg-black photo"><img class="w-full h-full" src="../dist/imgs/misic/ab67616d00001e025ceb92dd323dd263a03f4594.jpeg" alt="Foto da musica"></div>
                                 <div class="h-66 overflow-hidden flex-1 p-1 flex flex-col gap-2">
-                                    <h1 class="text-16/25.6 font-semibold">Ka Valungo</h1>
+                                    <a href="#" class="text-16/25.6 font-semibold truncate" title="lorem">Ka Valungo</a>
                                     <div class="text-14/11.7 flex flex-col gap-2">
-                                        <p>Unapologetically</p>
-                                        <p>Vibes!za</p>
+                                        <p class="truncate">Unapologetically</p>
+                                        <p class="truncate">Vibes!za</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="relative gap-2 flex flex-col w-wMus1 h-hMus1 bg-neutral-600 bg-opacity-10 transition-all duration-300 hover:bg-opacity-25 p-3 rounded-md divmusic">
+                            <div class="divmusic">
                                 <div class="hidden absolute bottom-28 right-7">
-                                    <button class="flex justify-center items-center w-12 h-12 rounded-full playMusic bg-playcolor">
+                                    <button type="button" aria-label="click to play" class="playMusic">
                                         <i class="bx bx-play bx-md" style="color: black"></i>
                                     </button>
                                 </div>
-                                <div class="h-181 w-full bg-black photo">Foto</div>
+                                <div class="h-181 w-full bg-black photo"><img class="w-full h-full" src="../dist/imgs/misic/ab67616d00001e0289fb238877e411954517ece9.jpeg" alt="Foto da musica"></div>
                                 <div class="h-66 overflow-hidden flex-1 p-1 flex flex-col gap-2">
-                                    <h1 class="text-16/25.6 font-semibold">Ka Valungo</h1>
+                                    <a href="#" class="text-16/25.6 font-semibold truncate" title="lorem">Ka Valungo</a>
                                     <div class="text-14/11.7 flex flex-col gap-2">
-                                        <p>Unapologetically</p>
-                                        <p>Vibes!za</p>
+                                        <p class="truncate">Unapologetically</p>
+                                        <p class="truncate">Vibes!za</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="relative gap-2 flex flex-col w-wMus1 h-hMus1 bg-neutral-600 bg-opacity-10 transition-all duration-300 hover:bg-opacity-25 p-3 rounded-md divmusic">
+                            <div class="divmusic">
                                 <div class="hidden absolute bottom-28 right-7">
-                                    <button class="flex justify-center items-center w-12 h-12 rounded-full playMusic bg-playcolor">
+                                    <button type="button" aria-label="click to play" class="playMusic">
                                         <i class="bx bx-play bx-md" style="color: black"></i>
                                     </button>
                                 </div>
-                                <div class="h-181 w-full bg-black photo">Foto</div>
+                                <div class="h-181 w-full bg-black photo"><img class="w-full h-full" src="../dist/imgs/misic/ab67616d00001e02b6062905c9155ce6bc05bdc7.jpeg" alt="Foto da musica"></div>
                                 <div class="h-66 overflow-hidden flex-1 p-1 flex flex-col gap-2">
-                                    <h1 class="text-16/25.6 font-semibold">Ka Valungo</h1>
+                                    <a href="#" class="text-16/25.6 font-semibold truncate" title="lorem">Ka Valungo</a>
                                     <div class="text-14/11.7 flex flex-col gap-2">
-                                        <p>Unapologetically</p>
-                                        <p>Vibes!za</p>
+                                        <p class="truncate">Unapologetically</p>
+                                        <p class="truncate">Vibes!za</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full flex flex-col gap-3 overflow-x-auto">
+                        <div class="flex justify-between flex-row my-2">
+                            <h1 class="text-24/13.3 font-bold">Para começares</h1>
+                            <button class="hidden md:block text-14/22.4 font-semibold">Mostrar tudo</button>
+                        </div>
+                        <div class="flex w-full justify-around flex-row overflow-auto gap-2">
+                            <div class="divmusic">
+                                <div class="hidden absolute bottom-28 right-7">
+                                    <button type="button" aria-label="click to play" class="playMusic">
+                                        <i class="bx bx-play bx-md" style="color: black"></i>
+                                    </button>
+                                </div>
+                                <div class="h-181 w-full bg-black photo"><img class="w-full h-full" src="../dist/imgs/misic/ab67706c0000da84783011ca35a0c2b5b8314798.jpeg" alt="Foto da musica"></div>
+                                <div class="h-66 overflow-hidden flex-1 p-1 flex flex-col gap-2">
+                                    <a href="#" class="text-16/25.6 font-semibold truncate" title="lorem">Ka Valungo</a>
+                                    <div class="text-14/11.7 flex flex-col gap-2">
+                                        <p class="truncate">Unapologetically</p>
+                                        <p class="truncate">Vibes!za</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="divmusic">
+                                <div class="hidden absolute bottom-28 right-7">
+                                    <button type="button" aria-label="click to play" class="playMusic">
+                                        <i class="bx bx-play bx-md" style="color: black"></i>
+                                    </button>
+                                </div>
+                                <div class="h-181 w-full bg-black photo"><img class="w-full h-full" src="../dist/imgs/misic/ab67706c0000da84e02695672095c48c7fafaa56.jpeg" alt="Foto da musica"></div>
+                                <div class="h-66 overflow-hidden flex-1 p-1 flex flex-col gap-2">
+                                    <a href="#" class="text-16/25.6 font-semibold truncate" title="lorem">Ka Valungo</a>
+                                    <div class="text-14/11.7 flex flex-col gap-2">
+                                        <p class="truncate">Unapologetically</p>
+                                        <p class="truncate">Vibes!za</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="divmusic">
+                                <div class="hidden absolute bottom-28 right-7">
+                                    <button type="button" aria-label="click to play" class="playMusic">
+                                        <i class="bx bx-play bx-md" style="color: black"></i>
+                                    </button>
+                                </div>
+                                <div class="h-181 w-full bg-black photo"><img class="w-full h-full" src="../dist/imgs/misic/ab67706f000000020f8a89b7c587973f906bba02.jpeg" alt="Foto da musica"></div>
+                                <div class="h-66 overflow-hidden flex-1 p-1 flex flex-col gap-2">
+                                    <a href="#" class="text-16/25.6 font-semibold truncate" title="lorem">Ka Valungo</a>
+                                    <div class="text-14/11.7 flex flex-col gap-2">
+                                        <p class="truncate">Unapologetically</p>
+                                        <p class="truncate">Vibes!za</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="divmusic">
+                                <div class="hidden absolute bottom-28 right-7">
+                                    <button type="button" aria-label="click to play" class="playMusic">
+                                        <i class="bx bx-play bx-md" style="color: black"></i>
+                                    </button>
+                                </div>
+                                <div class="h-181 w-full bg-black photo"><img class="w-full h-full" src="../dist/imgs/misic/ab67706f000000022e2fee5a9f85b856105015a2.jpeg" alt="Foto da musica"></div>
+                                <div class="h-66 overflow-hidden flex-1 p-1 flex flex-col gap-2">
+                                    <a href="#" class="text-16/25.6 font-semibold truncate" title="lorem">Ka Valungo</a>
+                                    <div class="text-14/11.7 flex flex-col gap-2">
+                                        <p class="truncate">Unapologetically</p>
+                                        <p class="truncate">Vibes!za</p>
                                     </div>
                                 </div>
                             </div>
@@ -190,131 +259,63 @@
                             <button class="hidden md:block text-14/22.4 font-semibold">Mostrar tudo</button>
                         </div>
                         <div class="flex w-full justify-around flex-row overflow-auto gap-2">
-                            <div class="relative gap-2 flex flex-col w-wMus1 h-hMus1 bg-neutral-600 bg-opacity-10 transition-all duration-300 hover:bg-opacity-25 p-3 rounded-md divmusic">
+                            <div class="divmusic">
                                 <div class="hidden absolute bottom-28 right-7">
-                                    <button class="flex justify-center items-center w-12 h-12 rounded-full playMusic bg-playcolor">
+                                    <button type="button" aria-label="click to play" class="playMusic">
                                         <i class="bx bx-play bx-md" style="color: black"></i>
                                     </button>
                                 </div>
-                                <div class="h-181 w-full bg-black photo">Foto</div>
+                                <div class="h-181 w-full bg-black photo"><img class="w-full h-full" src="../dist/imgs/misic/ab67706f00000002a86f06fb337166fc5047efee.jpeg" alt="Foto da musica"></div>
                                 <div class="h-66 overflow-hidden flex-1 p-1 flex flex-col gap-2">
-                                    <h1 class="text-16/25.6 font-semibold">Ka Valungo</h1>
+                                    <a href="#" class="text-16/25.6 font-semibold truncate" title="lorem">Ka Valungo</a>
                                     <div class="text-14/11.7 flex flex-col gap-2">
-                                        <p>Unapologetically</p>
-                                        <p>Vibes!za</p>
+                                        <p class="truncate">Unapologetically</p>
+                                        <p class="truncate">Vibes!za</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="relative gap-2 flex flex-col w-wMus1 h-hMus1 bg-neutral-600 bg-opacity-10 transition-all duration-300 hover:bg-opacity-25 p-3 rounded-md divmusic">
+                            <div class="divmusic">
                                 <div class="hidden absolute bottom-28 right-7">
-                                    <button class="flex justify-center items-center w-12 h-12 rounded-full playMusic bg-playcolor">
+                                    <button type="button" aria-label="click to play" class="playMusic">
                                         <i class="bx bx-play bx-md" style="color: black"></i>
                                     </button>
                                 </div>
-                                <div class="h-181 w-full bg-black photo">Foto</div>
+                                <div class="h-181 w-full bg-black photo"><img class="w-full h-full" src="../dist/imgs/misic/ab67706f00000002cd70b1512ab7793460e925d8.jpeg" alt="Foto da musica"></div>
                                 <div class="h-66 overflow-hidden flex-1 p-1 flex flex-col gap-2">
-                                    <h1 class="text-16/25.6 font-semibold">Ka Valungo</h1>
+                                    <a href="#" class="text-16/25.6 font-semibold truncate" title="lorem">Ka Valungo</a>
                                     <div class="text-14/11.7 flex flex-col gap-2">
-                                        <p>Unapologetically</p>
-                                        <p>Vibes!za</p>
+                                        <p class="truncate">Unapologetically</p>
+                                        <p class="truncate">Vibes!za</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="relative gap-2 flex flex-col w-wMus1 h-hMus1 bg-neutral-600 bg-opacity-10 transition-all duration-300 hover:bg-opacity-25 p-3 rounded-md divmusic">
+                            <div class="divmusic">
                                 <div class="hidden absolute bottom-28 right-7">
-                                    <button class="flex justify-center items-center w-12 h-12 rounded-full playMusic bg-playcolor">
+                                    <button type="button" aria-label="click to play" class="playMusic">
                                         <i class="bx bx-play bx-md" style="color: black"></i>
                                     </button>
                                 </div>
-                                <div class="h-181 w-full bg-black photo">Foto</div>
+                                <div class="h-181 w-full bg-black photo"><img class="w-full h-full" src="../dist/imgs/misic/ab67706f00000002d0b4ee7d89447acf96e86bf4.jpeg" alt="Foto da musica"></div>
                                 <div class="h-66 overflow-hidden flex-1 p-1 flex flex-col gap-2">
-                                    <h1 class="text-16/25.6 font-semibold">Ka Valungo</h1>
+                                    <a href="#" class="text-16/25.6 font-semibold truncate" title="lorem">Ka Valungo</a>
                                     <div class="text-14/11.7 flex flex-col gap-2">
-                                        <p>Unapologetically</p>
-                                        <p>Vibes!za</p>
+                                        <p class="truncate">Unapologetically</p>
+                                        <p class="truncate">Vibes!za</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="relative gap-2 flex flex-col w-wMus1 h-hMus1 bg-neutral-600 bg-opacity-10 transition-all duration-300 hover:bg-opacity-25 p-3 rounded-md divmusic">
+                            <div class="divmusic">
                                 <div class="hidden absolute bottom-28 right-7">
-                                    <button class="flex justify-center items-center w-12 h-12 rounded-full playMusic bg-playcolor">
+                                    <button type="button" aria-label="click to play" class="playMusic">
                                         <i class="bx bx-play bx-md" style="color: black"></i>
                                     </button>
                                 </div>
-                                <div class="h-181 w-full bg-black photo">Foto</div>
+                                <div class="h-181 w-full bg-black photo"><img class="w-full h-full" src="../dist/imgs/misic/ab67706f00000002ed8f593fef93084c4dc7679f.jpeg" alt="Foto da musica"></div>
                                 <div class="h-66 overflow-hidden flex-1 p-1 flex flex-col gap-2">
-                                    <h1 class="text-16/25.6 font-semibold">Ka Valungo</h1>
+                                    <a href="#" class="text-16/25.6 font-semibold truncate" title="lorem">Ka Valungo</a>
                                     <div class="text-14/11.7 flex flex-col gap-2">
-                                        <p>Unapologetically</p>
-                                        <p>Vibes!za</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="w-full flex flex-col gap-3 overflow-x-auto">
-                        <div class="flex justify-between flex-row my-2">
-                            <h1 class="text-24/13.3 font-bold">Reproduzido recentemente</h1>
-                            <button class="hidden md:block text-14/22.4 font-semibold">Mostrar tudo</button>
-                        </div>
-                        <div class="flex w-full justify-around flex-row overflow-auto gap-2">
-                            <div class="relative gap-2 flex flex-col w-wMus1 h-hMus1 bg-neutral-600 bg-opacity-10 transition-all duration-300 hover:bg-opacity-25 p-3 rounded-md divmusic">
-                                <div class="hidden absolute bottom-28 right-7">
-                                    <button class="flex justify-center items-center w-12 h-12 rounded-full playMusic bg-playcolor">
-                                        <i class="bx bx-play bx-md" style="color: black"></i>
-                                    </button>
-                                </div>
-                                <div class="h-181 w-full bg-black photo">Foto</div>
-                                <div class="h-66 overflow-hidden flex-1 p-1 flex flex-col gap-2">
-                                    <h1 class="text-16/25.6 font-semibold">Ka Valungo</h1>
-                                    <div class="text-14/11.7 flex flex-col gap-2">
-                                        <p>Unapologetically</p>
-                                        <p>Vibes!za</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="relative gap-2 flex flex-col w-wMus1 h-hMus1 bg-neutral-600 bg-opacity-10 transition-all duration-300 hover:bg-opacity-25 p-3 rounded-md divmusic">
-                                <div class="hidden absolute bottom-28 right-7">
-                                    <button class="flex justify-center items-center w-12 h-12 rounded-full playMusic bg-playcolor">
-                                        <i class="bx bx-play bx-md" style="color: black"></i>
-                                    </button>
-                                </div>
-                                <div class="h-181 w-full bg-black photo">Foto</div>
-                                <div class="h-66 overflow-hidden flex-1 p-1 flex flex-col gap-2">
-                                    <h1 class="text-16/25.6 font-semibold">Ka Valungo</h1>
-                                    <div class="text-14/11.7 flex flex-col gap-2">
-                                        <p>Unapologetically</p>
-                                        <p>Vibes!za</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="relative gap-2 flex flex-col w-wMus1 h-hMus1 bg-neutral-600 bg-opacity-10 transition-all duration-300 hover:bg-opacity-25 p-3 rounded-md divmusic">
-                                <div class="hidden absolute bottom-28 right-7">
-                                    <button class="flex justify-center items-center w-12 h-12 rounded-full playMusic bg-playcolor">
-                                        <i class="bx bx-play bx-md" style="color: black"></i>
-                                    </button>
-                                </div>
-                                <div class="h-181 w-full bg-black photo">Foto</div>
-                                <div class="h-66 overflow-hidden flex-1 p-1 flex flex-col gap-2">
-                                    <h1 class="text-16/25.6 font-semibold">Ka Valungo</h1>
-                                    <div class="text-14/11.7 flex flex-col gap-2">
-                                        <p>Unapologetically</p>
-                                        <p>Vibes!za</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="relative gap-2 flex flex-col w-wMus1 h-hMus1 bg-neutral-600 bg-opacity-10 transition-all duration-300 hover:bg-opacity-25 p-3 rounded-md divmusic">
-                                <div class="hidden absolute bottom-28 right-7">
-                                    <button class="flex justify-center items-center w-12 h-12 rounded-full playMusic bg-playcolor">
-                                        <i class="bx bx-play bx-md" style="color: black"></i>
-                                    </button>
-                                </div>
-                                <div class="h-181 w-full bg-black photo">Foto</div>
-                                <div class="h-66 overflow-hidden flex-1 p-1 flex flex-col gap-2">
-                                    <h1 class="text-16/25.6 font-semibold">Ka Valungo</h1>
-                                    <div class="text-14/11.7 flex flex-col gap-2">
-                                        <p>Unapologetically</p>
-                                        <p>Vibes!za</p>
+                                        <p class="truncate">Unapologetically</p>
+                                        <p class="truncate">Vibes!za</p>
                                     </div>
                                 </div>
                             </div>
@@ -326,63 +327,63 @@
                             <button class="hidden md:block text-14/22.4 font-semibold">Mostrar tudo</button>
                         </div>
                         <div class="flex w-full justify-around flex-row overflow-auto gap-2">
-                            <div class="relative gap-2 flex flex-col w-wMus1 h-hMus1 bg-neutral-600 bg-opacity-10 transition-all duration-300 hover:bg-opacity-25 p-3 rounded-md divmusic">
+                            <div class="divmusic">
                                 <div class="hidden absolute bottom-28 right-7">
-                                    <button class="flex justify-center items-center w-12 h-12 rounded-full playMusic bg-playcolor">
+                                    <button type="button" aria-label="click to play" class="playMusic">
                                         <i class="bx bx-play bx-md" style="color: black"></i>
                                     </button>
                                 </div>
-                                <div class="h-181 w-full bg-black photo">Foto</div>
+                                <div class="h-181 w-full bg-black photo"><img class="w-full h-full" src="../dist/imgs/misic/ab67706f00000002f9dfca809796a9da5a6ac8c6.jpeg" alt="Foto da musica"></div>
                                 <div class="h-66 overflow-hidden flex-1 p-1 flex flex-col gap-2">
-                                    <h1 class="text-16/25.6 font-semibold">Ka Valungo</h1>
+                                    <a href="#" class="text-16/25.6 font-semibold truncate" title="lorem">Ka Valungo</a>
                                     <div class="text-14/11.7 flex flex-col gap-2">
-                                        <p>Unapologetically</p>
-                                        <p>Vibes!za</p>
+                                        <p class="truncate">Unapologetically</p>
+                                        <p class="truncate">Vibes!za</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="relative gap-2 flex flex-col w-wMus1 h-hMus1 bg-neutral-600 bg-opacity-10 transition-all duration-300 hover:bg-opacity-25 p-3 rounded-md divmusic">
+                            <div class="divmusic">
                                 <div class="hidden absolute bottom-28 right-7">
-                                    <button class="flex justify-center items-center w-12 h-12 rounded-full playMusic bg-playcolor">
+                                    <button type="button" aria-label="click to play" class="playMusic">
                                         <i class="bx bx-play bx-md" style="color: black"></i>
                                     </button>
                                 </div>
-                                <div class="h-181 w-full bg-black photo">Foto</div>
+                                <div class="h-181 w-full bg-black photo"><img class="w-full h-full" src="../dist/imgs/misic/ab67706f000000020f8a89b7c587973f906bba02.jpeg" alt="Foto da musica"></div>
                                 <div class="h-66 overflow-hidden flex-1 p-1 flex flex-col gap-2">
-                                    <h1 class="text-16/25.6 font-semibold">Ka Valungo</h1>
+                                    <a href="#" class="text-16/25.6 font-semibold truncate" title="lorem">Ka Valungo</a>
                                     <div class="text-14/11.7 flex flex-col gap-2">
-                                        <p>Unapologetically</p>
-                                        <p>Vibes!za</p>
+                                        <p class="truncate">Unapologetically</p>
+                                        <p class="truncate">Vibes!za</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="relative gap-2 flex flex-col w-wMus1 h-hMus1 bg-neutral-600 bg-opacity-10 transition-all duration-300 hover:bg-opacity-25 p-3 rounded-md divmusic">
+                            <div class="divmusic">
                                 <div class="hidden absolute bottom-28 right-7">
-                                    <button class="flex justify-center items-center w-12 h-12 rounded-full playMusic bg-playcolor">
+                                    <button type="button" aria-label="click to play" class="playMusic">
                                         <i class="bx bx-play bx-md" style="color: black"></i>
                                     </button>
                                 </div>
-                                <div class="h-181 w-full bg-black photo">Foto</div>
+                                <div class="h-181 w-full bg-black photo"><img class="w-full h-full" src="../dist/imgs/misic/ab67616d00001e0259e1dccd3e64d1a67101e04f.jpeg" alt="Foto da musica"></div>
                                 <div class="h-66 overflow-hidden flex-1 p-1 flex flex-col gap-2">
-                                    <h1 class="text-16/25.6 font-semibold">Ka Valungo</h1>
+                                    <a href="#" class="text-16/25.6 font-semibold truncate" title="lorem">Ka Valungo</a>
                                     <div class="text-14/11.7 flex flex-col gap-2">
-                                        <p>Unapologetically</p>
-                                        <p>Vibes!za</p>
+                                        <p class="truncate">Unapologetically</p>
+                                        <p class="truncate">Vibes!za</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="relative gap-2 flex flex-col w-wMus1 h-hMus1 bg-neutral-600 bg-opacity-10 transition-all duration-300 hover:bg-opacity-25 p-3 rounded-md divmusic">
+                            <div class="divmusic">
                                 <div class="hidden absolute bottom-28 right-7">
-                                    <button class="flex justify-center items-center w-12 h-12 rounded-full playMusic bg-playcolor">
+                                    <button type="button" aria-label="click to play" class="playMusic">
                                         <i class="bx bx-play bx-md" style="color: black"></i>
                                     </button>
                                 </div>
-                                <div class="h-181 w-full bg-black photo"><img src="ab67706f000000022e2fee5a9f85b856105015a2.jpeg" /></div>
+                                <div class="h-181 w-full bg-black photo"><img class="w-full h-full" src="../dist/imgs/misic/43c3d0b650cef207bf43e4595737eef55d86023e.jpeg" alt="Foto da musica"></div>
                                 <div class="h-66 overflow-hidden flex-1 p-1 flex flex-col gap-2">
-                                    <h1 class="text-16/25.6 font-semibold">Ka Valungo</h1>
+                                    <a href="#" class="text-16/25.6 font-semibold truncate" title="lorem">Ka Valungo</a>
                                     <div class="text-14/11.7 flex flex-col gap-2">
-                                        <p>Unapologetically</p>
-                                        <p>Vibes!za</p>
+                                        <p class="truncate">Unapologetically</p>
+                                        <p class="truncate">Vibes!za</p>
                                     </div>
                                 </div>
                             </div>
@@ -391,23 +392,7 @@
                 </div>
             </section>
         </main>
-        <script src="./script/script.js"></script>
-        <!-- <img aria-hidden="false" draggable="false" loading="eager" src="https://i.scdn.co/image/ab67706c0000da84e02695672095c48c7fafaa56" alt="AmaPiano 2023 | Weekly Top Grooves | Latest Hits Playlist | Best of Amapiano Songs" class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj" sizes="(min-width: 1280px) 232px, 192px">
 
-    <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67706f0000000278b4745cb9ce8ffe32daaf7e" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj">
-
-    <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67706f00000002870d54027003c8027dbc57ec" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj">
-
-    <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67706f00000002e5382c6955d7aee148ac4e07" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj">
-
-    <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67706f00000002b0fe40a6e1692822f5a9d8f1" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt Yn2Ei5QZn19gria6LjZj">
-
-    <img aria-hidden="false" draggable="false" loading="lazy" src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_us_default.jpg" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt Yn2Ei5QZn19gria6LjZj">
-
-    <img aria-hidden="false" draggable="false" loading="lazy" src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj">
-
-    <img aria-hidden="false" draggable="false" loading="lazy" src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_us_default.jpg" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj">
-
-    <button data-testid="play-button" aria-label="Reproduzir Top 50 – EUA" data-encore-id="buttonPrimary" class="Button-sc-qlcn5g-0 mCyvT"><span class="ButtonInner-sc-14ud5tc-0 lmjRIQ encore-bright-accent-set"><span aria-hidden="true" class="IconWrapper__Wrapper-sc-1hf1hjl-0 erHrNB"><svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon" class="Svg-sc-ytk21e-0 haNxPq"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg></span></span></button> -->
+        
     </body>
 </html>
