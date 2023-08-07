@@ -649,10 +649,6 @@ video {
   flex: none;
 }
 
-.-scroll-me-52{
-  scroll-margin-inline-end: -13rem;
-}
-
 .flex-row{
   flex-direction: row;
 }
@@ -729,10 +725,6 @@ video {
   overflow: hidden;
 }
 
-.overflow-clip{
-  overflow: clip;
-}
-
 .overflow-x-auto{
   overflow-x: auto;
 }
@@ -745,29 +737,9 @@ video {
   overflow-x: hidden;
 }
 
-.overflow-y-clip{
-  overflow-y: clip;
-}
-
-.overflow-y-visible{
-  overflow-y: visible;
-}
-
 .truncate{
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.text-ellipsis{
-  text-overflow: ellipsis;
-}
-
-.text-clip{
-  text-overflow: clip;
-}
-
-.whitespace-nowrap{
   white-space: nowrap;
 }
 
@@ -807,11 +779,6 @@ video {
 
 .bg-opacity-5{
   --tw-bg-opacity: 0.05;
-}
-
-.bg-clip-text{
-  -webkit-background-clip: text;
-          background-clip: text;
 }
 
 .p-1{
@@ -965,10 +932,6 @@ video {
   background-color: rgb(74 222 128 / var(--tw-bg-opacity));
 }
 
-.target\:first-letter\:overflow-hidden:target::first-letter{
-  overflow: hidden;
-}
-
 .hover\:overflow-auto:hover{
   overflow: auto;
 }
@@ -976,10 +939,6 @@ video {
 @media (min-width: 640px){
   .sm\:flex{
     display: flex;
-  }
-
-  .sm\:hidden{
-    display: none;
   }
 }
 
