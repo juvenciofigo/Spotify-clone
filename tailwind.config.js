@@ -34,6 +34,9 @@ module.exports = {
             transitionProperty: {
                 scale: "scale",
             },
+            screens: {
+                x: "410px",
+            },
         },
     },
     plugins: [],
