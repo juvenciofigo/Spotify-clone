@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: ["./src/**/*.{html,js}"],
+    content: ["./html", "./**/*.{html,js}", "./src/**/*.{html,js}"],
     theme: {
         extend: {
             spacing: {
@@ -10,7 +10,7 @@ module.exports = {
                 wMus1: "195px",
                 hTitl: "135px",
                 181: "181px",
-                66:"66px"
+                66: "66px",
             },
             fontSize: {
                 "14/11.7": ["14px", "11.7px"],
@@ -30,6 +30,9 @@ module.exports = {
             },
             colors: {
                 playcolor: "#1ed760",
+            },
+            transitionProperty: {
+                scale: "scale",
             },
         },
     },

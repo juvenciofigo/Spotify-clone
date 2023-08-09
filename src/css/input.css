@@ -9,5 +9,5 @@
 }
 
 .playMusic {
-    @apply flex justify-center items-center rounded-full bg-playcolor w-full h-full hover:bg-green-400;
+    @apply flex justify-center items-center rounded-full bg-playcolor w-full h-full hover:scale-110 transition-all duration-200;
 }
