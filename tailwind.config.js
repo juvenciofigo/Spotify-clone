@@ -20,6 +20,7 @@ module.exports = {
                 "24/13.3": ["24px", "13.3px"],
                 "24/20": ["24px", "20px"],
                 "18/15": ["18px", "15px"],
+                "22/22":["20px"]
             },
             fontFamily: {
                 Montserrat: ["Montserrat"],
